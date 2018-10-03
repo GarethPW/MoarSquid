@@ -1,0 +1,6 @@
+main: net.garethpw.MoarSquid.MoarSquidPlugin
+name: MoarSquid
+version: "0.1.0"
+description: Replaces a portion of natural spawns with squid.
+load: STARTUP
+author: GarethPW
