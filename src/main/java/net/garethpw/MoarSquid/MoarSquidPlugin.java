@@ -34,7 +34,7 @@ public final class MoarSquidPlugin extends JavaPlugin implements Listener {
         else if (originalEntity instanceof Dolphin) { chance = 0.25f; }
 
         if (chance > 0f && random.nextFloat() < chance) {
-          Location location = originalEntity.getLocation();
+          Location location = event.getLocation();
 
           event.setCancelled(true);
           location.getWorld().spawnEntity(location, EntityType.SQUID);
